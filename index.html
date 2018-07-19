@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title> Fitness First</title>
+<meta name="viewpoint"content="width=divice-width,initial-scale=1.0">
+<link rel="stylesheet" href="blueberry.css"/>
+<style type="text/css">
+*{
+	margin:0;
+	border:0;
+	padding:0;
+}
+body {
+	background:#f0f0f0;
+	font:14px/20px Arial,San-Serif;
+	color:#555;
+	margin:0;
+}
+
+h1 {
+	text-align:center;
+	font-size:100px;
+	line-height:120px;
+	padding:5%0;
+	text-decoration:underline;
+	
+}
+h2{
+width: 800px;
+     margin: 0 auto;;
+	 letter-spacing: 1px;
+}
+p{
+	padding:1%;
+	
+}
+img{
+	text-align:center;
+	max-width:100%;
+	height:auto;
+	width:auto;
+}
+a{
+	color:#fff;
+	text-decoration:none;
+	font-weight:bold;
+	
+}
+
+a:hover{
+	color:#fff;
+	text-decoration:underline;
+	
+}
+header{
+	background:#405580;
+	width:100%;
+	height:86px;
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:100;
+	opacity:0.90;
+	}
+#logo{
+	margin:20px;
+	float:left;
+	width:200px;
+	height:60px;
+	background:url(logo.png)no-repeat center;
+}
+
+nav{
+	float:right;
+	padding:35px 20px 20px 0px;
+	
+}
+#menu-icon{
+	display:hidden;
+	width:40px;
+	height:40px;
+	background:url(icon.png)center;
+}
+a:hover#menu-icon{	
+	border-radius:4px 4px 0 0;
+	
+}
+ul{
+	list-style:none;
+	
+}
+nav ul li{
+	display:inline:block;
+	float:left;
+	padding:10px;
+}
+.current{
+	color:#fff;
+	text-decoration:underline;
+	
+}
+#doc{
+	margin:40px 0;
+}
+#content{
+	
+	margin:0 auto;
+	max-width:1140px;
+	margin-top:110px;
+}
+.blueberry{
+	max-width:960px;
+	margin-top:110px;
+}
+section{
+	width:29%;
+	float:left;
+	margin:2% 2%;
+	text-align:center;
+
+}
+footer{
+	background:#333333;
+	width:100%;
+	overflow:hidden;
+	opacity:0.90;
+}
+footer p,footer h3{
+	color:#fff;
+}
+footer p a{	
+	color:#fff;
+	text-decoration:none;
+}
+ul.social li{	
+	display:inline;
+}
+
+footer.second{
+	border-top:1px solid #4D4E450;
+	background:#333333;
+	max-height:50px;
+	text-align:center;
+	opacity:0.95;
+}
+</style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+<script src="jquery.blueberry.js"></script>
+<script>
+$(window).load(function() {
+	$('.blueberry').blueberry();
+	});
+</script>
+
+</head>
+<body>	
+	<header>
+		<a href="a" id="logo"></a>
+		<nav>
+			<a href="#" id="menu-icon"></d>
+			<ul>
+				<li><a href="#" class="current">Home</a></li>
+				<li><a href="signup.php">Register</a></li>
+				<li><a href="login.php">Login</a></li>
+				
+			</ul>
+		
+	
+		
+		</nav>
+	</header>
+	<div id="doc">
+		<div id="content">
+			<div class="blueberry">
+				<ul class="slides">
+					
+					<li><img src="running.png"/>
+					<li><img src="fit5.png"/>
+					<li><img src="fit6.png"/>
+					<li><img src="yoga.png"/>
+					<li><img src="fit3.png"/>
+					<li><img src="fit4.png"/>
+					<li><img src="fit1.png"/>
+				
+					
+				</ul>
+				
+			</div>
+		</div>
+	</div>
+	
+	<h1>Our Goals</h1>
+		<h2>Getting fit and staying fit is a fantastic achievement. Fitness is key to staying healthy and happy. Exercising also helps keep the immune system running in peak condition and keeps your metabolism raring to go.</h2><br>
+
+		<h2>But let’s face it: we all could use a little help now and then. 
+		You might just be taking those first steps away from the couch, or you could be looking for new tips and tricks after years of experience.
+		Whether you need a firm kick in the pants or an encouraging shot of inspiration, the content of this website are a great resource.Register to get started!!</h2><br><br><br>
+	
+	<footer>
+		<section>
+			<h3><b>Fitness First</b></h3>
+			<p><b>9008968578</b><br><br>
+			Bangalore,India</p>
+		</section>
+		<section>
+			<h3>Connect with us!</h3><br>
+				<ul class ="social">
+					<li><a href="about.html">About Us</a></li>
+				</ul>
+		</section>
+		<section>
+			<img src="fit2.png"/>
+		</section>
+	</footer>
+	<footer class="second">
+		<p>@Rozelle-Shantanu 2016</p>
+	</footer>
+	
+</body>
+</html>
